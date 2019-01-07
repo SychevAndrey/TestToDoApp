@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Item {
+class Item: Encodable, Decodable {
     var title = ""
     var done = false
 }
